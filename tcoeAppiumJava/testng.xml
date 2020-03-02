@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+  <suite name="Regression Tests" thread-count="1">
+    <!--<suite name="Regression Tests ALL" thread-count="19" parallel="methods" data-provider-thread-count="19">-->
+    <listeners>
+      <listener class-name="components.reporting.xray.XrayListener"/>
+      <listener class-name="components.testng.TestngContentListener"/>
+    </listeners>
+    <test verbose="2" name="all tests in the project">
+      <packages>
+        <package name="tests.*"/>
+      </packages>
+
+    </test>
+</suite>

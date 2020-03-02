@@ -1,0 +1,1 @@
+curl -u ppiesniewski11:d6d7034d-41e7-4ac2-bf5f-9e6c64a0ae39 -X POST -H 'Content-Type: application/octet-stream' https://saucelabs.com/rest/v1/storage/ppiesniewski11/Contacts.apk.zip?overwrite=true --data-binary @C:\\tcoeGITRepo\\appiumJava\\app\\iOS\\ContactsSimulator.app.zip
